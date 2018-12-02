@@ -1,0 +1,89 @@
+Script started on Tue 10 Apr 2018 03:07:35 PM EDT
+]0;rubio_e@cobra:~/CSC245/Proj/Project3[?1034h[rubio_e@cobra Project3]$ cat myFile.txt 
+03-25-18
+
+Thsi is a fiel that has soem spelling errors.
+
+Every tiem I hit the keys I egt into troulbe!
+
+don't worry abuot me thuogh,
+
+hte end!
+]0;rubio_e@cobra:~/CSC245/Proj/Project3[rubio_e@cobra Project3]$ c++ spellCheck.cpp 
+]0;rubio_e@cobra:~/CSC245/Proj/Project3[rubio_e@cobra Project3]$ a.out myFile.txt 
+[H[2J--------------------------------------       S P E L L  C H E C K E R       --------------------------------------
+
+On line 2, "Thsi" was not found in dictionary... 
+
+1.) Add word to dictionary
+2.) Ignore word, and skip future reference
+3.) Move on to next word
+4.) Find suggested spelling
+5.) Replace all wrong words with suggested spellings
+6.) Quit Spell Checker program
+
+Please enter your selection: 3
+Please press enter to continue... 
+
+[H[2J--------------------------------------       S P E L L  C H E C K E R       --------------------------------------
+
+On line 2, "fiel" was not found in dictionary... 
+
+1.) Add word to dictionary
+2.) Ignore word, and skip future reference
+3.) Move on to next word
+4.) Find suggested spelling
+5.) Replace all wrong words with suggested spellings
+6.) Quit Spell Checker program
+
+Please enter your selection: 4
+
+Finding alternate spelling options... 
+
+Suggested spelling:	file
+
+Please press enter to continue... 
+
+[H[2J--------------------------------------       S P E L L  C H E C K E R       --------------------------------------
+
+On line 2, "soem" was not found in dictionary... 
+
+1.) Add word to dictionary
+2.) Ignore word, and skip future reference
+3.) Move on to next word
+4.) Find suggested spelling
+5.) Replace all wrong words with suggested spellings
+6.) Quit Spell Checker program
+
+Please enter your selection: 5
+Replacing all wrong words with spelling suggestions...
+Please press enter to continue... 
+
+[H[2J--------------------------------------       S P E L L  C H E C K E R       --------------------------------------
+
+On line 2, "spelling" was not found in dictionary... 
+
+1.) Add word to dictionary
+2.) Ignore word, and skip future reference
+3.) Move on to next word
+4.) Find suggested spelling
+5.) Replace all wrong words with suggested spellings
+6.) Quit Spell Checker program
+
+Please enter your selection: 6
+
+Exiting program... 
+]0;rubio_e@cobra:~/CSC245/Proj/Project3[rubio_e@cobra Project3]$ cat myFile.txt 
+03-25-18
+
+this is a file that has some spelling errors.
+
+Every time I hit the keys I get into trouble
+
+don't worry about me thuogh
+
+the end
+]0;rubio_e@cobra:~/CSC245/Proj/Project3[rubio_e@cobra Project3]$ exit
+exit
+
+Script done on Tue 10 Apr 2018 03:08:17 PM EDT
